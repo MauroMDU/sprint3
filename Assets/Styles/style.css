@@ -1,0 +1,498 @@
+* { box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-style:italic;
+}
+/* body principal*/
+body {
+    background-image: url(../Images/logo.png);
+    background-color: black;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+header {
+    min-height: 5vh;
+    width: 100%;
+    background-color: rgb(141, 6, 6);
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    justify-items: start;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #601a1a 0%, #8a2b2b 100%)0.5;
+}
+.nav-one{
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    height: 2rem;
+    width: 3rem;
+    border: none;
+}
+
+img {
+    height: 12rem;
+    width: 15rem;
+    object-fit: cover;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #e81c15 0%, #760303 100%) 1;
+    border-radius: 0.3em;
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 4rem;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+}
+.section-home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+.img1 {
+    height: 20rem;
+    width: 80%;
+}
+.div-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.div-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.parrafo1 {
+    font-size: 1.5rem;
+    width: 400px;
+    margin-right: 1rem;
+}
+
+.img2 {
+    height: 15rem;
+    width: 20rem;
+}
+
+  /*About comienza*/
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.aboutus {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.content img {
+    margin: 0;
+    height: 9rem;
+    width: 12rem;
+
+}
+.content p{
+    margin-left: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+#img3{
+    margin-left: -8rem;
+}
+         /*Contact*/
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.twoguys {
+    height: 20rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.infocontact {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.infocontact a{
+    text-decoration: none;
+}
+
+.information-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+.divinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.information-section p{
+    align-items: center;
+}
+/*information*/
+table {
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 2rem;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.benefits-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.benefits-section div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.benefits-section img {
+    height: 12rem;
+    width: 12rem;
+}
+ul {
+    margin-top: 1rem;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 1rem;
+}
+h2{
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(146, 31, 31);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 5vh;
+    width: 100%;
+    font-size: 2rem;
+    border-top: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #892e2e 0%, #6e2222 100%) 1;
+}
+
+footer p{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+
+}
+
+     /* ACA COMIENZA RAFFLE*/
+.mainraffle{
+    height: 800px;
+}    
+.container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-form {
+    width: 250px;
+    margin-top: 1rem;
+}  
+.div-form label {
+    display: block;
+    margin-top: 10px;
+}
+  
+.div-form input,
+.div-form select,
+.div-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: black;
+}
+  
+.div-form textarea {
+    height: 100px;
+}
+  
+.div-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+  
+.div-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.divall{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.map {
+    width: 250px;
+    margin-left:10rem;
+    margin-top: 5rem;
+}
+.payment{
+    display: flex;
+    width: 100%;
+
+}
+  /*PAGINA 1 CELULAR*/
+  @media screen and (min-width: 320px) and (max-width: 767px){
+    header div{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 11vh;
+        width: 100vw;
+    }
+    .nav-one{
+        display: flex;
+        margin-top: 0.2rem;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .nav a{
+        padding: 0;
+        margin-left: -20px;
+    }
+    .parrafo1 {
+        font-size: 1rem;
+        width: 300px;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    header{
+        width: 100%;
+    }
+    .div-home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .div-main{
+        min-height: 84vh;
+    }
+    footer p{
+        min-height: 5vh;
+        font-size: 1rem;
+    }
+    
+    body{
+        width: 100%;
+    }
+    .img1 {
+        height: 10%;
+        width: 90%;
+    }
+    .img2 {
+        margin-top: -1.5rem;
+        height: 8%;
+        width: 70%;
+    }
+      /*About*/
+    .aboutus {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        margin-bottom: 2rem;
+        height: 600px;
+        margin-top: 1rem;
+    }
+    .content img {
+        margin: 0;
+        height: 9rem;
+        width: 12rem;
+    
+    }
+    .content p{
+        width: 300px;
+        margin: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    #img3{
+        margin-left: 0;
+    }
+    main{
+        height: 100vh;
+    }
+    /*contact*/
+    .twoguys {
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .infocontact {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .information-section {
+        width: 200px;
+    }
+    table{
+        width: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    .divinfo{
+        width: 100%;
+        margin: 0;
+        min-height: 60vh;
+    }
+    th,td{
+        padding: 1rem;
+    }
+    /*B Tips*/
+    .benefits-section{
+        height: 700px;
+        margin-bottom: 15rem;
+    }
+    .benefits-section div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-style: normal;
+        width: 300px;
+    }
+    .list{
+        width: 200px;
+        margin-left: 0;
+    }
+    .mainbt{
+        height: 1000px;
+    }
+    .divall{
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        
+    }
+    iframe{
+        width: 250px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .map{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .mainraffle{
+        height: 1200px;
+    }
+}
